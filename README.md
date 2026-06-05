@@ -12,17 +12,16 @@ runs natively in Claude Code, Codex, and other agents.
 ## Install
 
 Any host (the skill itself): copy `skills/skillscake/` into your agent's skills
-directory — `~/.claude/skills/` (Claude Code) or `~/.agents/skills/` (Codex) — or
-run `npx skills add skillscake/use-skillscake`.
+directory or run `npx skills add skillscake/use-skillscake`.
 
 Claude Code plugin: `/plugin marketplace add skillscake/use-skillscake`, then
-`/plugin install skillscake@skillscake`.
+`/plugin install skillscake@skillscake`, then `/reload-plugins` to activate it.
 
-Codex plugin: `codex plugin marketplace add skillscake/use-skillscake`, then enable
-it from `/plugins`.
+Codex plugin: CLI `codex plugin marketplace add skillscake/use-skillscake`, 
+then enable it from `/plugins`, then restart Codex to load the skill.
 
-Copilot CLI plugin: `copilot plugin marketplace add skillscake/use-skillscake`, then
-`/plugin install skillscake@skillscake`.
+Copilot CLI plugin: `/plugin marketplace add skillscake/use-skillscake`, then 
+`/plugin install skillscake@skillscake`, then restart Copilot to load the skill.
 
 Needs `bash`, `curl`, `zip`, and `unzip` (standard on macOS and Linux).
 
