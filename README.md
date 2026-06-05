@@ -48,6 +48,6 @@ applies the result — with as few questions as possible.
 
 ## License
 
-[Elastic License 2.0](LICENSE). Use and modify freely for personal or business
-use; you may not resell it, or offer it (or SkillsCake's API) to others as a
-hosted service. The client is source-available; the API and engine are not.
+[Apache License 2.0](LICENSE). Use, modify, and redistribute freely. This client
+is open source; the upgrade engine and API stay a hosted service, and your use of
+the API is governed by the SkillsCake terms.

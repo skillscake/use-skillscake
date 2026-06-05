@@ -6,6 +6,6 @@
   "author": { "name": "SkillsCake" },
   "homepage": "https://skillscake.com",
   "repository": "https://github.com/skillscake/use-skillscake",
-  "license": "Elastic-2.0",
+  "license": "Apache-2.0",
   "keywords": ["agent-skills", "skill", "prompt-engineering", "skill-creator", "skill-optimizer", "secure-skills", "skillscake"]
 }
