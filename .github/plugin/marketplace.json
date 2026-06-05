@@ -1,0 +1,13 @@
+{
+  "name": "skillscake",
+  "owner": { "name": "SkillsCake" },
+  "plugins": [
+    {
+      "name": "skillscake",
+      "source": "./plugins/copilot",
+      "description": "Create or improve agent skills (SKILL.md) with SkillsCake — skill creation and optimization for prompt engineers on Copilot CLI, Claude Code, Codex, and Cursor.",
+      "category": "Developer Tools",
+      "keywords": ["agent-skills", "skill", "prompt-engineering", "skill-creator", "skill-optimizer", "secure-skills", "skillscake"]
+    }
+  ]
+}

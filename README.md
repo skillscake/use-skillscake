@@ -21,6 +21,9 @@ Claude Code plugin: `/plugin marketplace add skillscake/use-skillscake`, then
 Codex plugin: `codex plugin marketplace add skillscake/use-skillscake`, then enable
 it from `/plugins`.
 
+Copilot CLI plugin: `copilot plugin marketplace add skillscake/use-skillscake`, then
+`/plugin install skillscake@skillscake`.
+
 Needs `bash`, `curl`, `zip`, and `unzip` (standard on macOS and Linux).
 
 ## Set up a key
@@ -40,8 +43,8 @@ applies the result — with as few questions as possible.
 ## Layout
 
     skills/skillscake/   the host-agnostic skill (SKILL.md + scripts)
-    plugins/             Claude Code and Codex plugin wrappers (symlink the skill)
-    .claude-plugin/, .agents/   marketplace manifests
+    plugins/             Claude Code, Codex, and Copilot plugin wrappers (symlink the skill)
+    .claude-plugin/, .agents/, .github/plugin/   marketplace manifests
 
 ## License
 
