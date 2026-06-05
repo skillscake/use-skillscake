@@ -1,0 +1,11 @@
+{
+  "name": "skillscake",
+  "plugins": [
+    {
+      "name": "skillscake",
+      "source": { "type": "local", "path": "./plugins/codex" },
+      "description": "Create or improve agent skills with SkillsCake.",
+      "category": "Developer Tools"
+    }
+  ]
+}

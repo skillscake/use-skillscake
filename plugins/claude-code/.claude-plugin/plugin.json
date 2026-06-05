@@ -1,0 +1,11 @@
+{
+  "name": "skillscake",
+  "displayName": "SkillsCake",
+  "description": "Create or upgrade agent skills with SkillsCake.",
+  "version": "0.1.0",
+  "author": { "name": "SkillsCake" },
+  "homepage": "https://skillscake.com",
+  "repository": "https://github.com/skillscake/use-skillscake",
+  "license": "Elastic-2.0",
+  "keywords": ["agent-skills", "skill", "prompt-engineering", "skill-creator", "skill-optimizer", "secure-skills", "skillscake"]
+}

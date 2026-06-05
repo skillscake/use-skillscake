@@ -1,0 +1,15 @@
+{
+  "name": "skillscake",
+  "owner": { "name": "SkillsCake", "url": "https://skillscake.com" },
+  "plugins": [
+    {
+      "name": "skillscake",
+      "source": "./plugins/claude-code",
+      "displayName": "SkillsCake",
+      "description": "Create or improve agent skills (SKILL.md) with SkillsCake — skill creation and optimization for prompt engineers on Claude Code, Codex, and Cursor.",
+      "category": "Developer Tools",
+      "tags": ["agent-skills", "skill", "prompt-engineering", "skill-creator", "skill-optimizer", "secure-skills", "claude-code", "codex", "cursor", "skillscake"],
+      "keywords": ["agent-skills", "skill", "prompt-engineering", "skill-creator", "skill-optimizer", "secure-skills", "skillscake"]
+    }
+  ]
+}
